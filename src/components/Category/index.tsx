@@ -4,7 +4,7 @@ import CategoryItems from './categoryItems'
 export default function Category() {
   return (
     <div>
-      <h3 className="text-center my-4 my-xl-5" style={{ fontWeight: '500' }}>
+      <h3 className="text-center my-4 my-xl-5 fw-medium">
         Busque por categoria:
       </h3>
 
