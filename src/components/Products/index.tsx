@@ -4,8 +4,8 @@ import ProductsItems from './productsItems'
 
 export default function Products() {
   return (
-    <div className="container">
-      <h2 className="text-center my-4 my-xl-5 fw-medium">
+    <div className="container py-5">
+      <h2 className="text-center mb-4 mb-xl-5 fw-medium">
         Produtos que estão bombando!
       </h2>
 
