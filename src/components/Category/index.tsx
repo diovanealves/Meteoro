@@ -12,7 +12,7 @@ export default function Category() {
         {CategoryItems.map((category, index) => (
           <Card
             key={index}
-            className="col-6 col-md-4 col-xxl-2 rounded-0 border-0"
+            className="col-6 col-md-4 col-xl-2 rounded-0 border-0"
           >
             <Card.Img variant="top" src={category.image} />
             <Card.Body className="bg-black text-bg-dark">
