@@ -1,10 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel'
-import carouselImage from './carouselImage'
+import carouselItems from './carouselItems'
 
 export default function Carousels() {
   return (
     <Carousel interval={2500}>
-      {carouselImage.map((image, index) => (
+      {carouselItems.map((image, index) => (
         <Carousel.Item key={index}>
           <img
             className="w-100 d-block d-md-none d-xl-none"

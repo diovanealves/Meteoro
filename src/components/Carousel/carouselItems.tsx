@@ -8,7 +8,7 @@ import BannerCarousel1Mobile from '../../assets/BannerCarousel1Mobile.png'
 import BannerCarousel2Mobile from '../../assets/BannerCarousel2Mobile.png'
 import BannerCarousel3Mobile from '../../assets/BannerCarousel3Mobile.png'
 
-const carouselImage = [
+const carouselItems = [
   {
     desktop: BannerCarousel1Desktop,
     tablet: BannerCarousel1Tablet,
@@ -37,4 +37,4 @@ const carouselImage = [
   },
 ]
 
-export default carouselImage
+export default carouselItems
