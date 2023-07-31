@@ -26,7 +26,7 @@ export default function Header() {
               <Form.Control
                 type="search"
                 placeholder="Digite o Produto"
-                className="me-2 rounded-0"
+                className="me-2 rounded-0 shadow-none"
                 aria-label="Pesquisar"
               />
               <Button type="button" variant="outline-light rounded-0">
@@ -41,7 +41,7 @@ export default function Header() {
           <Form.Control
             type="search"
             placeholder="Digite o Produto"
-            className="me-2 rounded-0 border-black"
+            className="me-2 rounded-0 border-black shadow-none"
             aria-label="Pesquisar"
           />
           <Button type="button" variant="outline-black border-black rounded-0">
