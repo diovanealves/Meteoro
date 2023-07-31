@@ -3,6 +3,7 @@ import Carousels from './components/Carousel'
 import Category from './components/Category'
 import Products from './components/Products'
 import Facilities from './components/Facilities'
+import Newsletter from './components/Newsletter'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Category />
       <Products />
       <Facilities />
+      <Newsletter />
     </>
   )
 }
