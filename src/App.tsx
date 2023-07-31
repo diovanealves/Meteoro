@@ -4,6 +4,7 @@ import Category from './components/Category'
 import Products from './components/Products'
 import Facilities from './components/Facilities'
 import Newsletter from './components/Newsletter'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Products />
       <Facilities />
       <Newsletter />
+      <Footer />
     </>
   )
 }
