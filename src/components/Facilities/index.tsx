@@ -1,5 +1,4 @@
 import { BsXDiamond, BsArrowRepeat, BsFlower1 } from 'react-icons/bs'
-import './style.css'
 
 export default function Facilities() {
   return (
@@ -13,21 +12,23 @@ export default function Facilities() {
           <BsXDiamond className="icon" />
           <div>
             <h5 className="fw-bold textHighlight">PAGUE PELO PIX</h5>
-            <p>Ganhe 5% OFF em pagamentos via PIX</p>
+            <p className="m-0">Ganhe 5% OFF em pagamentos via PIX</p>
           </div>
         </div>
         <div className="d-flex align-items-center gap-3 cardFacilities">
           <BsArrowRepeat className="icon" />
           <div>
             <h5 className="fw-bold textHighlight">TROCA GRÁTIS</h5>
-            <p>Fique livre para trocar em até 30 dias.</p>
+            <p className="m-0">Fique livre para trocar em até 30 dias.</p>
           </div>
         </div>
         <div className="d-flex align-items-center gap-3 cardFacilities">
           <BsFlower1 className="icon" />
           <div>
             <h5 className="fw-bold textHighlight">SUSTENTABILIDADE</h5>
-            <p>Moda responsável, que respeita o meio ambiente.</p>
+            <p className="m-0">
+              Moda responsável, que respeita o meio ambiente.
+            </p>
           </div>
         </div>
       </div>
